@@ -36,7 +36,7 @@
 }
 
 .nav li a:hover{
-  background-color: red;
+  background-color: #00ff00;
 }
 
 
@@ -82,6 +82,12 @@ body {
 	margin-top: 2px;
 }
 
+.container-fluid h2{
+	color: black;
+    font-size: 2vw;	
+ }
+
+
 /***************Large device only************/
 @media(min-width:1200px) {
 .navbar-brand h1 { /* Restaurant name */
@@ -106,10 +112,12 @@ body {
   font-size: 2.5vw;
   margin-left: 20px;
 }
-
-
-
+.container-fluid h2{
+	color: black;
+    font-size: 3vw;	
+ }
 } 
+
 /***************extra small device only************/
 @media(max-width: 767px) {
  .navbar-brand h1 {
@@ -127,3 +135,8 @@ body {
 li {
 	text-transform: uppercase;
 }
+
+.container-fluid h2{
+	color: black;
+    font-size: 4vw;	
+ }
