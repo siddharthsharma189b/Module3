@@ -87,6 +87,10 @@ body {
     font-size: 2vw;	
  }
 
+ li {
+	text-transform: uppercase;
+}
+
 
 /***************Large device only************/
 @media(min-width:1200px) {
@@ -132,11 +136,3 @@ body {
  }
 }
 
-li {
-	text-transform: uppercase;
-}
-
-.container-fluid h2{
-	color: black;
-    font-size: 4vw;	
- }
