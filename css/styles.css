@@ -6,8 +6,6 @@
 	padding : 0;
 }
 
-
-
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
   color: #557c3e;
@@ -22,7 +20,10 @@
 
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
+  background-color: red;
 }
+
+
 
 .navbar-brand p { /* Kosher cert */
   color: #000;
@@ -34,11 +35,13 @@
   vertical-align: middle;
 }
 
-.container-fluid
+.nav li a:hover{
+  background-color: red;
+}
+
 
 .collapsable-nav a {
 	text-align: center;
-	} {
 	color: black;
 	font-family: 'Oxygen', sans-serif;
 	box-sizing: content-box;
@@ -63,20 +66,47 @@ body {
 	  background-color: #61122f;
 }
 
+.container-fluid h1{
+	color: black;
+    font-size: 3vw;	
+}
+
+.container h4 {
+	text-transform: uppercase;
+}
+
+.nav li a {
+	background-color: white;
+	border-radius: 5px;
+	border:1px solid black;
+	margin-top: 2px;
+}
+
 /***************Large device only************/
 @media(min-width:1200px) {
+.navbar-brand h1 { /* Restaurant name */
+  font-size: 2.5vw;
+  margin-left: 20px;
+}
 
 }
 
 /***************Medium device only************/
 @media(min-width: 992px) and (max-width:1199px) {
+.navbar-brand h1 { /* Restaurant name */
+  font-size: 2.5vw;
+  margin-left: 20px;
+}
+
 }
 
 /***************Small device only************/
 @media(min-width: 768px) and (max-width:991px) {
 .navbar-brand h1 { /* Restaurant name */
-  font-size: 5vw;
+  font-size: 2.5vw;
+  margin-left: 20px;
 }
+
 
 
 } 
@@ -86,11 +116,12 @@ body {
  	margin-left: 10px;
  	font-size: 4vw;
  	margin-top: 15px;
+ 	margin-left: 15px;
  	padding-top: 0px;
  }
   a {
 	text-align: center;
-}
+ }
 }
 
 li {
