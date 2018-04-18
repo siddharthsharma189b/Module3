@@ -9,7 +9,7 @@
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
   color: #557c3e;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
@@ -68,7 +68,7 @@ body {
 
 .container-fluid h1{
 	color: black;
-    font-size: 3vw;	
+    font-size: 2vw;	
 }
 
 .container h4 {
@@ -85,7 +85,7 @@ body {
 /***************Large device only************/
 @media(min-width:1200px) {
 .navbar-brand h1 { /* Restaurant name */
-  font-size: 2.5vw;
+  font-size: 2vw;
   margin-left: 20px;
 }
 
@@ -94,7 +94,7 @@ body {
 /***************Medium device only************/
 @media(min-width: 992px) and (max-width:1199px) {
 .navbar-brand h1 { /* Restaurant name */
-  font-size: 2.5vw;
+  font-size: 2vw;
   margin-left: 20px;
 }
 
